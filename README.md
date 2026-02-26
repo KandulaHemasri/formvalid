@@ -1,16 +1,53 @@
-# React + Vite
+# Multi-Step Form (React + React Hook Form + Zod)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Multi-Step Form Application** built using React with industry-standard form handling and validation.
 
-Currently, two official plugins are available:
+This project demonstrates enterprise-level form management using **React Hook Form** and **Zod Schema Validation** with improved UX and performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Live Link - https://formvalid-ten.vercel.app/
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Multi-Step Form Navigation  
+✅ Conditional Rendering Between Steps  
+✅ Real-Time Validation  
+✅ Schema-based Validation using Zod  
+✅ React Hook Form Integration  
+✅ Password Show/Hide Toggle  
+✅ Disabled Next Button Until Valid Input  
+✅ Review & Submit Page  
+✅ Success Message After Submission  
+✅ Auto Redirect Back to Form  
+✅ Responsive Mobile Design  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Form Steps
+
+### Step 1 – Personal Information
+- First Name
+- Last Name
+- Date of Birth
+
+### Step 2 – Account Details
+- Email Validation
+- Password (Minimum 8 Characters)
+- Confirm Password Match
+- Show / Hide Password
+
+### Step 3 – Review & Submit
+- Displays entered data
+- Final submission
+
+---
+
+## 🛠 Tech Stack
+
+- React
+- React Hook Form
+- Zod
+- CSS3
+- Vite
+
+---
